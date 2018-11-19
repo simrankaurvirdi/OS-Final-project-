@@ -23,7 +23,7 @@ pthread_attr_t attr; //Thread attributes
 void *producer(void *param); /*producer thread*/
 void *consumer(void *param); /*consumer thread*/
 void *producer(void *param) {
-   buffer_item item;
+   buffer_item item; 
    while(TRUE) {
       /*random sleep time*/
       int rNum = rand() % BUFFER_SIZE;
