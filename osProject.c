@@ -28,7 +28,7 @@ void *producer(void *param) {
       /*random sleep time*/
       int rNum = rand() % BUFFER_SIZE;
       sleep(rNum);
-      /*random number generator*/
+      /*random number generator below*/
       item = rand();
       if(insert_item(item)) {
          fprintf(stderr, " Producer report error condition\n");
