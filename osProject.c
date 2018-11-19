@@ -81,8 +81,8 @@ int remove_item(buffer_item *item)
    buffer[insertPointer] = 0;
    insertPointer = (insertPointer -1) % BUFFER_SIZE;
    pthread_mutex_unlock(&mutex);
-   sem_post(&empty);
-   return 0;
+   sem_post(&empty); 
+   return 0; 
 }
 int main(int argc, char *argv[]) {
    /* Loop counter */
