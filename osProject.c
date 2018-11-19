@@ -1,14 +1,12 @@
 typedef int buffer_item;
 #define BUFFER_SIZE 5 // buffer size is file 
 #define TRUE 1
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
 #include <semaphore.h>
 #include "buffer.h"
 #include <unistd.h>
-
 
 int insertPointer = 0, removePointer = 0;
 /* The mutex lock */
