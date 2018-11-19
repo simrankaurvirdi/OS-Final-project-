@@ -2,7 +2,6 @@ typedef int buffer_item;
 #define BUFFER_SIZE 5 // buffer size is file 
 #define TRUE 1
 
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
