@@ -96,6 +96,7 @@ int main(int argc, char *argv[]) {
    int producerNum = atoi(argv[2]); /*Number of producer threads*/
    int consumerNum = atoi(argv[3]); /*Number of consumer threads*/
    int fail;
+   
    pthread_t pThread[producerNum];
    pthread_t cThread[consumerNum];
    /*setup*/
