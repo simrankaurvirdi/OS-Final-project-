@@ -9,6 +9,7 @@ typedef int buffer_item;
 #include "buffer.h"
 #include <unistd.h>
 
+
 int insertPointer = 0, removePointer = 0;
 /* The mutex lock */
 pthread_mutex_t mutex;
