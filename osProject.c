@@ -34,7 +34,7 @@ void *producer(void *param) {
          fprintf(stderr, " Producer report error condition\n");
       }
       else {
-         printf("producer produced %d\n", item);
+         printf("producer produced %d\n", item); 
       }
    }
 }
