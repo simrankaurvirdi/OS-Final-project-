@@ -89,6 +89,7 @@ int main(int argc, char *argv[]) {
    if(argc != 4) {
       fprintf(stderr, "Enter 3 integer aguments\n");
    }
+	//command line arguments 
    int mainSleepTime = atoi(argv[1]); /*Time in seconds for sleeping*/
    int producerNum = atoi(argv[2]); /*Number of producer threads*/
    int consumerNum = atoi(argv[3]); /*Number of consumer threads*/
